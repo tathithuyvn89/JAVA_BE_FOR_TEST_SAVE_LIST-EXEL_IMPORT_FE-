@@ -7,4 +7,5 @@ import java.util.List;
 
 public interface StaffService extends CrudGenericService<Staff> {
 List<Staff> saveStaffList(List<Staff> list);
+
 }

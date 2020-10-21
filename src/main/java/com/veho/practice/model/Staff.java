@@ -14,5 +14,6 @@ public class Staff {
     private String name;
     private String gender;
     @OneToOne
-    private Deparment deparment;
+    private Department department;
+
 }
